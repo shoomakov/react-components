@@ -195,7 +195,7 @@ export default class Avatar extends Component {
           title={this.props.title}
         />
 
-        {_.isNil(onErrorSrc) == true && <svg styleName='avatar__warning' viewBox="0 0 50 50" style={{ enableBackground: 'new 0 0 50 50'}}>
+        {/* {_.isNil(onErrorSrc) == true && <svg styleName='avatar__warning' viewBox="0 0 50 50" style={{ enableBackground: 'new 0 0 50 50'}}>
           <circle style={{fill: '#EFCE4A'}} cx="15" cy="15" r="15"/>
             <line
               style={{
@@ -215,7 +215,7 @@ export default class Avatar extends Component {
                 strokeMiterlimit: '5'}}
               x1="12.5" y1="18.5" x2="12.5" y2="19.5"
             />
-        </svg>}
+        </svg>} */}
 
         {this.props.status == 'online' && <svg styleName={statusClass}>
           <circle style={{fill: 'green'}} stroke="white" strokeWidth="2" cx="15" cy="15" r="15" />
